@@ -1,6 +1,6 @@
 ---
 tags:
-  - Area/Math/Combinatorics
+  - Area/Math/Combinatorics/YoungDiagram
   - Area/Math/Algebra/Group/PermutationGroup
   - Area/Math/Representation
 ---

@@ -8,7 +8,7 @@ A **fiber bundle** (or **local trivial fiber bundle**) is the data $(E,B,F,\pi)$
 1. A topological space $E$ called the **total space**.
 2. A topological space $B$ called the **base space**.
 3. A topological space $F$ called the **fiber**.
-4. A [[Mapping#Properties|surjection]] $\pi:E\to B$ satisfying $\pi ^{-1}(p)\cong F$, called the **projection space**. The inverse image $\pi ^{-1}(p)=F_{p}$ is called the fiber at $p\in B$.
+4. A [[Map#Properties|surjection]] $\pi:E\to B$ satisfying $\pi ^{-1}(p)\cong F$, called the **projection space**. The inverse image $\pi ^{-1}(p)=F_{p}$ is called the fiber at $p\in B$.
 5. For every point $x\in B$ there is an [[Topological Space|open neighborhood]] $U\subset B$ and a [[Homeomorphism|homeomorphism]] $\phi: \pi ^{-1}(U)\to U\times F$, called the **local trivialization**, that makes the diagram commutes:
 ```tikz
 \usepackage{tikz-cd}

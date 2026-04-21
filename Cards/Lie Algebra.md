@@ -14,5 +14,5 @@ A **[[Morphism|morphism]] of Lie algebra** is a $\mathbb{K}$-linear map $f:\math
 
 In short, the above theorem states the [[Equivalent Category|equivalence]] between the [[Category|category]] of Lie algebras and the category of connected simply-connected Lie groups.
 ## Related
-1. [[Z Simple Lie Algebra|Simple Lie algebra and semisimple Lie algebra]].
-2. [[Z Reductive Lie Algebra|Reductive Lie algebra]].
+1. [[Simple Lie Algebra|Simple Lie algebra and semisimple Lie algebra]].
+2. [[Reductive Lie Algebra|Reductive Lie algebra]].

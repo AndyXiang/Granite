@@ -1,11 +1,24 @@
 ---
 tags:
-  - Area/Physics/ParticlePhysics
+  - Area/Physics/ParticlePhysics/Hadron
   - Area/Physics/FieldTheory/QuantumChromodynamics
 ---
 In particle physics, hadron is 
 
-pseudoscalar meson octet:
+## $\mathrm{SU}(3)$ Quark Model
+In 1964, Gell-Mann and Zweig proposed the $\mathrm{SU}(3)$ [[Quark Model|Quark Model]], with there more elementary components for hadrons, as *quarks*. Quarks have three [[Flavor Symmetry|flavors]], denoted by $u,d,s$. They form the [[Fundamental Representation|fundamental representation]] $3$ of $\mathrm{SU}(3)$ [[Flavor Symmetry|flavor symmetry]], and their anti-particles form the [[Complex Conjugate Representation|complex conjugate representation]] $3^{*}$. The quantum numbers of quarks are list below:
+
+| Quark | $I$           | $I_{3}$        | $B$           | $S$  | $Y$            | $Q$            |
+| ----- | ------------- | -------------- | ------------- | ---- | -------------- | -------------- |
+| $u$   | $\frac{1}{2}$ | $\frac{1}{2}$  | $\frac{1}{3}$ | $0$  | $\frac{1}{3}$  | $\frac{2}{3}$  |
+| $d$   | $\frac{1}{2}$ | $-\frac{1}{2}$ | $\frac{1}{3}$ | $0$  | $\frac{1}{3}$  | $-\frac{1}{3}$ |
+| $s$   | $0$           | $0$            | $\frac{1}{3}$ | $-1$ | $-\frac{2}{3}$ | $-\frac{1}{3}$ |
+
+In this model, mesons are a pair of quark and anti-quark $q\bar{q}$, while baryons are composed of three quarks $qqq$. From the representation theory, one has
+$$3\otimes 3^{*}\cong 8\oplus 1,3\otimes 3\otimes 3\cong 10\oplus 8\oplus 8\oplus 1.$$
+Then one can recover the octet in mesons and baryons, and decuplet in baryons (there are subrepresentations in $qqq$ that are no corresponding particles).
+
+The weight diagram for pseudoscalar meson octet:
 ```tikz
 \begin{document}
 	\begin{tikzpicture}[
@@ -48,7 +61,7 @@ pseudoscalar meson octet:
 \end{document}
 ```
 
-vector meson octet:
+The weight diagram for vector meson octet:
 ```tikz
 \begin{document}
 	\begin{tikzpicture}[
@@ -90,7 +103,7 @@ vector meson octet:
 \end{document}
 ```
 
-Hadron octet:
+The weight diagram for hadron octet:
 ```tikz
 \begin{document}
 	\begin{tikzpicture}[
@@ -133,7 +146,7 @@ Hadron octet:
 \end{document}
 ```
 
-Hadron decuplet:
+The weight diagram for hadron decuplet:
 ```tikz
 \begin{document}
 	\begin{tikzpicture}[

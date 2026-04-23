@@ -50,7 +50,7 @@ $$\begin{align}
 \end{align}$$
 Here the two gauge field $W_{\mu}^{\pm}, Z_{\mu}$ obtains the masses as
 $$M_{W}=\frac{g_{2}v}{2},M_{Z}=\frac{g_{2}v}{2\cos\theta_{W}}.$$
-The massless gauge field $A_{\mu}$ (distinguish from $A^{a}_{\mu}$) is identified as the [[Z Electromagnetic Interaction|electromagnetism]] field, or the corresponding [[Z Photon|photon]] field. The measurements on the masses give
+The massless gauge field $A_{\mu}$ (distinguish from $A^{a}_{\mu}$) is identified as the [[Z Electromagnetic Interaction|electromagnetism]] field, or the corresponding [[Photon|photon]] field. The measurements on the masses give
 $$\cos\theta_{W}\approx 0.881.$$
 For simplicity, let's work in [[Unitary Gauge|unitary gauge]], where we set $\rho(x)=0$. The potential now reads
 $$V(H)=\frac{1}{4}\lambda v^{2}H^{2}+\frac{1}{4}\lambda vH^{3}+\frac{1}{16}\lambda H^4.$$

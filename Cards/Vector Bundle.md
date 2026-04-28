@@ -7,3 +7,4 @@ A **vector bundle** is a [[Fiber Bundle|fiber bundle]] $(E,B,V,\pi)$ where $V$ i
 
 A **[[Morphism|morphism]] of vector bundles** is a [[Fiber Bundle#Morphism of fiber bundles|morphism of fiber bundles]]  that also induces linear transformation when restricted to each fiber.
 
+

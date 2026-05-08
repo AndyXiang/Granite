@@ -28,3 +28,4 @@ When editing existing contents:
 - Match existing style, even if you'd do it differently
 - If you notice unrelated dead parts, mention it — don't delete it
 - Every changed line should trace directly to the user's request.
+- Read over repo to find maximally possible wiki links.

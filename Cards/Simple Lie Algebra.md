@@ -7,6 +7,5 @@ A [[Lie Algebra|Lie algebra]] $\mathfrak{g}$ is **semisimple** if it contains no
 Any simple Lie algebra is semisimple.
 
 >[!tip] Levi's Theorem
->Any Lie algebra can be written as a direct sum $$\mathfrak{g}=\mathrm{rad}(\mathfrak{g})\oplus \mathfrak{g}_{\mathrm{ss}}.$$
-
-Here $\mathrm{rad}(\mathfrak{g})$ refers to the unique solvable ideal which contains any other solvable ideal.
+>Any Lie algebra can be written as a direct sum $$\mathfrak{g}=\mathrm{rad}(\mathfrak{g})\oplus \mathfrak{g}_{\mathrm{ss}},$$
+>where $\mathrm{rad}(\mathfrak{g})$ refers to the unique solvable ideal which contains any other solvable ideal, and $\mathfrak{g}_{ss}$ is a semisimple [[Lie Subalgebra|subalgebra]].

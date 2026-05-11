@@ -3,8 +3,8 @@ tags:
   - Area/Math/Algebra/LieAlgebra
 ---
 Let $\mathfrak{g}$ be a finite-dimensional [[Lie Algebra|Lie algebra]] over [[Field (Math)|field]] $\mathbb{K}$. A **Killing form** $B:\mathfrak{g}\times \mathfrak{g}\to \mathbb{K}$ is the symmetric bilinear form given by
-$$B(x,y)=\mathrm{tr}(\mathrm{ad}(x)\circ\mathrm{ad}(y)),x,y\in \mathfrak{g}$$
-where $\mathrm{ad}:\mathfrak{g}\to \mathrm{aut}(\mathfrak{g})$ is the [[Adjoint Action|adjoint action]].
+$$B(x,y)=\mathrm{tr}(\mathfrak{ad}(x)\circ\mathfrak{ad}(y)),x,y\in \mathfrak{g}$$
+where $\mathfrak{ad}:\mathfrak{g}\to \mathrm{aut}(\mathfrak{g})$ is the [[Adjoint Action|adjoint action]].
 
 Let $x_{i},i=1,2,\cdots,n$ be the basis of $\mathfrak{g}$. The Killing form can be written as
 $$B(x_{i},x_{j})=C_{ik}^{~~~~l}C_{jl}^{~~~k}.$$

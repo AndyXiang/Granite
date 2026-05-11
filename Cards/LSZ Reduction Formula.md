@@ -1,6 +1,4 @@
 ---
-type: card
-updated: 2026-01-28
 tags:
   - Area/Physics/FieldTheory/QuantumFieldTheory
 ---

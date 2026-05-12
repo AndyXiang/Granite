@@ -42,7 +42,7 @@ $$\ket{I,M}=\sum_{M_{1}+M_{2}=M} C^{I,M}_{I_{1},M_{1};I_{2},M_{2}} \ket{I_{1},M_
 
 ## Invariance and breaking of isospin
 The isospin is well preserved in [[Strong Interaction|strong interaction]]. Thus the isospin invariance gives strong prediction of scattering through strong interaction from several aspects
-1. different particles are connected under isospin transformation, thus the different process. Under the transformation $U=\exp(\mathrm{i}\pi\sigma^{2})$, $p\to n,\pi^{+}\to \pi^{-}$, the elastic process $p+\pi^{+}\to p+\pi^{+}$ becomes $n+\pi^{-}\to n+\pi^{-}$, that should have same [[Cross-section|cross-section]].
+1. different particles are connected under isospin transformation, thus the different process. Under the transformation $U=\exp(\mathrm{i}\pi\sigma^{2})$, $p\to n,\pi^{+}\to \pi^{-}$, the elastic process $p+\pi^{+}\to p+\pi^{+}$ becomes $n+\pi^{-}\to n+\pi^{-}$, that should have same [[Cross section|cross-section]].
 2. The elements of [[S Matrix|S matrix]] should only rely on values of total isospin of initial and final states. Typically,  total isospin should be conserved in possible process.
 
 The isospin is broken by [[Z Electromagnetic Interaction|electromagnetic interaction]] and [[Weak Interaction|weak interaction]]. By the way, the strong interaction also causes small breaking effects of isospin symmetry that results in the mass deviation of particles in one multiplet. From the [[Quantum Chromodynamics|QCD]], the isospin is broken by the small deviation of up quark and down quark.

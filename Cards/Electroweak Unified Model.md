@@ -7,7 +7,7 @@ The theory of **electroweak unified model** (EUM) is a **[[Gauge Field|gauge fie
 
 
 ## Gauge fields and Higgs field
-Under the electroweak gauge field, we denote the representation a matter field lives in by a pair of integer $(j,Y)$, standing for the $(2j+1)$-dimensional [[Irreducible Representation|irreducible representation]] of $\mathrm{SU}(2)$, and the charge w.r.t. $\mathrm{U}(1)$. The [[Higgs Field|Higgs field]] is a complex [[Scalar Field|scalar field]] $\varphi$ in the $\left( \frac{1}{2},-\frac{1}{2} \right)$ representation. Thus the covariant derivative of it is:
+Under the electroweak gauge field, we denote the representation a matter field lives in by a pair of integer $(j,Y)$, standing for the $(2j+1)$-dimensional [[Irreducible Representation|irreducible representation]] of $\mathrm{SU}(2)$, and the charge w.r.t. $\mathrm{U}(1)$. The [[Higgs Boson|Higgs field]] is a complex [[Scalar Field|scalar field]] $\varphi$ in the $\left( \frac{1}{2},-\frac{1}{2} \right)$ representation. Thus the covariant derivative of it is:
 $$\begin{align}
 D_{\mu}\varphi&=\partial _{\mu}\varphi-\mathrm{i}\left( g_{2}A^{a}_{\mu}\frac{\sigma^{a}}{2}- \frac{1}{2}g_{1}B_{\mu} \right)\varphi.
 \end{align}$$

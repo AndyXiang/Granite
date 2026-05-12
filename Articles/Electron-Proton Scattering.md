@@ -15,7 +15,7 @@ The [[Ward Identity|Ward identity]] (standing for charge conservation) $q_{\mu}J
 $$J^{\mu}(p',p)=\bar{u}(p')\Gamma^{\mu}u(p)=\bar{u}(p')[\gamma^{\mu}F_{1}(q^{2})+\mathrm{i}F_{2}(q^{2})\sigma^{\mu \nu}q_{\nu}]u(p),$$
 with two **form factors** $F_{1}(q^{2}),F_{2}(q^{2})$.
 
-Now we can compute the differential [[Cross-section|cross-section]]
+Now we can compute the differential [[Cross section|cross-section]]
 $$\frac{\mathrm{d}\sigma}{\mathrm{d}\Omega}=\frac{\alpha^{2}\cos^{2} \frac{\theta}{2}}{4E^{2}\sin ^{4} \frac{\theta}{2}} \frac{1}{1+\frac{2E}{m_{\mathrm{p}}}\sin ^{2} \frac{\theta}{2}}\left[ (F_{1}^{2}+Q^{2}F_{2}^{2})+\frac{Q^{2}}{2m_{\mathrm{p}}^{2}} (F_{1}+2m_{\mathrm{p}}F_{2})^{2}\tan ^{2}\frac{\theta}{2}\right].$$
 Here $Q^{2}=-q^{2}$ is called the *momentum transfer*. This is called the Rosenbluth formula.
 

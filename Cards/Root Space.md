@@ -1,7 +1,6 @@
 ---
 tags:
-  - Area/Math/Algebra/LieAlgebra
-  - Area/Math/Algebra/LieAlgebra/RootSystem
+  - Area/Math/Algebra/LieAlgebra/SemisimpleLieAlgebra
 ---
 Let $\mathfrak{g}$ be a [[Lie Algebra|Lie algebra]] and $\mathfrak{h}$ be its [[Cartan Subalgebra|Cartan subalgebra]]. For a linear functional $\alpha\in \mathfrak{h}^{*}$, the **root space** of $\alpha$ is the [[Vector Subspace|vector subspace]]
 $$
@@ -41,8 +40,3 @@ $$
 3. $\dim \mathfrak{g}_{\alpha}=1$ for every $\alpha\in\Delta$ when $\mathfrak{g}$ is finite-dimensional complex semisimple.
 4. The [[Killing Form|Killing form]] gives a non-degenerate pairing $\mathfrak{g}_{\alpha}\otimes\mathfrak{g}_{-\alpha}\to\mathbb{C}$.
 
-## Related
-1. [[Cartan Subalgebra]]
-2. [[Cartan-Weyl Basis]]
-3. [[Killing Form]]
-4. [[Root System of Lie Algebra]]

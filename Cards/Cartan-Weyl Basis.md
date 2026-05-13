@@ -50,9 +50,3 @@ $$
 1. The Cartan-Weyl basis is not unique, since each root vector $E_{\alpha}$ can be rescaled.
 2. The relation $[E_{\alpha},E_{-\alpha}]=H_{\alpha}$ fixes only the product of the scalings of $E_{\alpha}$ and $E_{-\alpha}$.
 3. In this basis, elements of $\mathfrak{h}$ are the diagonal part of the adjoint action, and root vectors are eigenvectors of all $\mathrm{ad}_{h}$, $h\in\mathfrak{h}$.
-
-## Related
-1. [[Cartan Subalgebra]]
-2. [[Root Space]]
-3. [[Killing Form]]
-4. [[Root System of Lie Algebra]]

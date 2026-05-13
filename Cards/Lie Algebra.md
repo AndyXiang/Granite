@@ -6,6 +6,7 @@ tags:
 A **Lie algebra** over [[Field (Math)|field]] $\mathbb{K}$ is is a [[Vector Space|vector space]] $\mathfrak{g}$ over $\mathbb{K}$ with a $\mathbb{K}$-bilinear [[Map|map]] $[-,-]:\mathfrak{g}\times \mathfrak{g}\to \mathfrak{g}$, called the **commutator**, satisfying:
 1. *skew-symmetric*: $\forall x,y\in \mathfrak{g},[x,y]=-[y,x]$.
 2. *Jacobi identity*: $\forall x,y,z\in \mathfrak{g},[x,[y,z]]+[y,[z,x]]+[z,[x,y]]=0$.
+
 Let $x_{i},i=1,2,\cdots$ be basis of $\mathfrak{g}$. **Structure constant** is defined with $[x_{i},x_{j}]=C_{ij}^{~~~~k}x_{k}$.
 
 A **[[Morphism|morphism]] of Lie algebra** is a $\mathbb{K}$-linear map $f:\mathfrak{g}_{1}\to \mathfrak{g}_{2}$ which preserves the commutator.

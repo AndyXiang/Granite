@@ -14,3 +14,5 @@ $$B(x_{i},x_{j})=C_{ik}^{~~~~l}C_{jl}^{~~~k}.$$
 1. Killing form is *invariant*: $B(x,[y,z])=B([x,y],z)$.
 2. $\mathfrak{g}$ is [[Solvable Lie Algebra|solvable]] iff $B(x,y)=0$ for every $x\in[\mathfrak{g},\mathfrak{g}]$ and $y\in \mathfrak{g}$.
 3. $\mathfrak{g}$ is [[Simple Lie Algebra|semisimple]] iff $B(x,y)$ is non-degenerate.
+4. If $\mathfrak{g}$ is a real Lie algebra with positive definite Killing form, then $\mathfrak{g}=0$.
+5. If $\mathfrak{g}$ is a real Lie algebra with negative definite Killing form, then any [[Connected Space|connected]] [[Lie Group|Lie group]] with Lie algebra $\mathfrak{g}$ is [[Compact Space|compact]].

@@ -2,9 +2,9 @@
 tags:
   - Area/Math/Algebra/LieAlgebra
 ---
-Let $\mathfrak{g}$ be a [[Lie Algebra|Lie algebra]] over [[Field (Math)|field]] $\mathbb{K}$. Define the series of [[Lie Ideal|ideals]] $D^{i}\mathfrak{g}$ by $D^{0}\mathfrak{g}=\mathfrak{g}$ and 
-$$D^{i+1}\mathfrak{g}=[D^{i}\mathfrak{g},D^{i}\mathfrak{g}].$$
-The Lie algebra is **solvable** if $D^{n}\mathfrak{g}=0$ for some $n\in \mathbb{N}$.
+Let $\mathfrak{g}$ be a [[Lie Algebra|Lie algebra]] over [[Field (Math)|field]] $\mathbb{K}$. Define the series of [[Lie Ideal|ideals]] $\mathfrak{g}^{(k)},k\in \mathbb{N}$ by $\mathfrak{g}^{(0)}=\mathfrak{g}$ and 
+$$\mathfrak{g}^{(k+1)}=[\mathfrak{g}^{(k)},\mathfrak{g}^{(k)}].$$
+The Lie algebra is **solvable** if $\mathfrak{g}^{(n)}=0$ for some $n\in \mathbb{N}$.
 
 ## Representations of solvable Lie algebras
 >[!tip] Lie's theorem about representations of solvable Lie algebra

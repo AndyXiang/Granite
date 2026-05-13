@@ -1,11 +1,9 @@
 ---
 tags:
-  - Area/Math/Algebra/LieAlgebra
+  - Area/Math/Algebra/LieAlgebra/SimpleLieAlgebra
 ---
-A [[Lie Algebra|Lie algebra]] $\mathfrak{g}$ is **semisimple** if it contains no nonzero [[Solvable Lie Algebra|solvable]] [[Lie Ideal|ideal]]. A Lie algebra $\mathfrak{g}$ is **simple** if it's not abelian and contains no ideal other than $0$ and $\mathfrak{g}$. 
+A Lie algebra $\mathfrak{g}$ is **simple** if it's not abelian and contains no ideal other than $0$ and $\mathfrak{g}$. 
 
-Any simple Lie algebra is semisimple.
+Any simple Lie algebra is [[Semisimple Lie Algebra|semisimple]].
 
->[!tip] Levi's Theorem
->Any Lie algebra can be written as a direct sum $$\mathfrak{g}=\mathrm{rad}(\mathfrak{g})\oplus \mathfrak{g}_{\mathrm{ss}},$$
->where $\mathrm{rad}(\mathfrak{g})$ refers to the unique solvable ideal which contains any other solvable ideal, and $\mathfrak{g}_{ss}$ is a semisimple [[Lie Subalgebra|subalgebra]].
+

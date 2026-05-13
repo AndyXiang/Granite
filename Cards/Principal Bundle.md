@@ -42,7 +42,7 @@ $$H_{\mu(p,g)}P=\mu_{*}(H_{g})$$
 for the right action $\mu:M\times G\to G$.
 
 ### Algebraic definition
-For any vector $X\in \mathfrak{g}$, its gives a curve lying in fiber $G_{m}\cong G$ on $m$ as $\mu(p, \mathrm{e}^{ tX }):\mathbb{R}\to P$. Such curve has tangent vector belong to $V_{p}P$, we denote it as $\bar{X}$. We now define the **Ehresmann connection** as the $\mathfrak{g}$-value [[Differential Form|1-form]] $\omega\in \mathfrak{g}\otimes T^{*}P$ satisfying
+For any vector $X\in \mathfrak{g}$, its gives a curve lying in fiber $G_{m}\cong G$ on $m$ as $\mu(p, \mathrm{e}^{ tX }):\mathbb{R}\to P$. Such curve has tangent vector belong to $V_{p}P$, we denote it as $\bar{X}$. We now define the **Ehresmann connection** as the $\mathfrak{g}$-value [[Exterior Differential Form|1-form]] $\omega\in \mathfrak{g}\otimes T^{*}P$ satisfying
 1. $\omega(\bar{X})=X$.
 2. $\mu_{g}^{*}(\omega)=\mathrm{ad}_{g^{-1}}(\omega)$.
 Now the horizontal subspace can be defined as the kernel of connection 1-form $H_{p}P=\mathrm{ker}(\omega)$.

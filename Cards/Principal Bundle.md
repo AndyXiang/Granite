@@ -31,10 +31,8 @@ A principal bundle is trivial iff it admits a [[Fiber Bundle#Section|global sect
 
 Given a local section $s$ over $U\subset B$, we define a preferred local trivialization $\phi:U\times G\to \pi ^{-1}(U)$ as follow. For $p\in \pi ^{-1}(x),x\in U$, there is a *unique* element $g_{p}\in G$ such that $p=\mu(s(x),g_{p})$. We define $\phi$ by $\phi ^{-1}(p)=(x,g_{p})$, and the section can be expressed as $s(x)=\phi(x,1)$ with identity $1$ of $G$. This is called the **canonical local trivialization** of the principal bundle.
 
-
-
 ## Connections on principal bundle
-Let $G$ be a [[Lie Group|Lie group]] and $\mathfrak{g}$ be its [[Lie Algebra|Lie algebra]]. Let $M$ be a [[Differential Manifold|manifold]]. Consider the principal bundle $(P,M,G,\pi)$. For $p\in P$ and $m=\pi(p)\in M$, the projection $\pi$ induces a linear map between [[Tangent Space|tangent spaces]] $T_{p}P$ and $T_{m}M$, that is the push-forward $\pi_{*}:T_{p}P\to T_{m}M$. The **vertical subspace** $V_{p}P\subset T_{p}P$ is defined as the kernel $\mathrm{ker} (\pi_{*})$. This means the vectors in $V_{p}P$ have no components in $T_{m}M$, i.e. $\pi_{*}(v)=0$. One can generalize it to a [[Tangent Bundle|vector bundle]] $VP$ 
+Let $G$ be a [[Lie Group|Lie group]] and $\mathfrak{g}$ be its [[Lie Algebra|Lie algebra]]. Let $M$ be a [[Differential Manifold|manifold]]. Consider the principal bundle $(P,M,G,\pi)$. For $p\in P$ and $m=\pi(p)\in M$, the projection $\pi$ induces a linear map between [[Tangent Space|tangent spaces]] $T_{p}P$ and $T_{m}M$, that is the push-forward $\pi_{*}:T_{p}P\to T_{m}M$. The **vertical subspace** $V_{p}P\subset T_{p}P$ is defined as the kernel $\mathrm{ker} (\pi_{*})$. This means the vectors in $V_{p}P$ have no components in $T_{m}M$, i.e. $\pi_{*}(v)=0$. One can generalize it to a [[Tangent Bundle|vector bundle]] $VP$.
 
 ### Geometric definition
 A **connection** on principal bundle $(P,M,G,\pi)$ is a unique separation on every point $p$ of $T_{p}P$ into one vertical subspace $V_{p}P$ and its complement $H_{p}P$, called the **horizontal subspace** such that

@@ -10,5 +10,5 @@ where $\omega_{i_{1}\cdots i_{n}}$ is a [[Smooth Mapping|smooth function]] over 
 
 An unary operation $\mathrm{d}:\Omega^{r}(M)\to\Omega^{r+1}(M)$ is introduced as
 $$\mathrm{d\omega}= \frac{1}{n!}\sum_{i_{1},\cdots,i_{n}}\mathrm{d}\omega_{i_{1}\cdots i_{n}}\wedge \mathrm{d}x^{i_{1}}\wedge \cdots\wedge \mathrm{d}x^{i_{n}}$$
-for $\mathrm{d}\omega_{i_{1}\cdots i_{n}}\in T^{*}M$. This is called the **exterior derivative**.
+for $\mathrm{d}\omega_{i_{1}\cdots i_{n}}\in T^{*}M$. This is called the **exterior derivative**. It satisfies nilpotent condition $\mathrm{d}^{2}=0$.
 

@@ -1,42 +1,38 @@
 ---
 tags:
-  - Area/Math/Algebra/LieAlgebra/SemisimpleLieAlgebra
+  - Area/Math/Algebra/VectorSpace/InnerProductSpace/RootSpace
 ---
-Let $\mathfrak{g}$ be a [[Lie Algebra|Lie algebra]] and $\mathfrak{h}$ be its [[Cartan Subalgebra|Cartan subalgebra]]. For a linear functional $\alpha\in \mathfrak{h}^{*}$, the **root space** of $\alpha$ is the [[Vector Subspace|vector subspace]]
-$$
-\mathfrak{g}_{\alpha}=\{x\in\mathfrak{g}:\forall h\in\mathfrak{h},[h,x]=\alpha(h)x\}.
-$$
+Let $E$ be a [[Inner Product Space|inner product space]] over [[Field (Math)|field]] $\mathbb{K}$ with inner product $(\cdot,\cdot):E\times E\to \mathbb{K}$. A **root space** $R$ is a finite [[Subset|subset]] of $E-\{ 0 \}$ such that:
+1. $R$ generates $E$, i.e. $E=\mathrm{span}_{\mathbb{K}}(R)$.
+2. $\forall\alpha,\beta\in R$, the number $n(\alpha,\beta)=2(\alpha,\beta) /(\beta,\beta)$ is an integer.
+3. Let $s_{\alpha}:E\to E$ as $$s_{\alpha}(x)=x-\frac{2(\alpha,x)}{(\alpha,\alpha)}\alpha.$$ Then $\forall\alpha,\beta\in R,s_{\alpha}(\beta)\in R$.
 
-Equivalently, $\mathfrak{g}_{\alpha}$ is the simultaneous eigenspace of the commuting operators $\mathrm{ad}_{h}:\mathfrak{g}\to\mathfrak{g}$, $h\in\mathfrak{h}$.
+The number $r=\mathrm{dim}(E)$ is called the **rank** of $R$.
 
-A nonzero $\alpha\in\mathfrak{h}^{*}$ is called a **root** if $\mathfrak{g}_{\alpha}\neq0$. The set of all roots is denoted by
-$$
-\Delta=\{\alpha\in\mathfrak{h}^{*}-\{0\}:\mathfrak{g}_{\alpha}\neq0\}.
-$$
+A **[[Morphism|morphism]] of root spaces** is a morphism of [[Vector Space|vector spaces]] $f:E_{1}\to E_{2}$ such that $f(R_{1})=R_{2}$ and $n_{f(\alpha)f(\beta)}=n_{\alpha\beta}$ for any $\alpha,\beta\in R_{1}$.
 
-If $\mathfrak{g}$ is a finite-dimensional complex semisimple Lie algebra, then
-$$
-\mathfrak{g}=\mathfrak{h}\oplus \bigoplus_{\alpha\in\Delta}\mathfrak{g}_{\alpha}.
-$$
-This is called the **root space decomposition** of $\mathfrak{g}$.
 
-## Coroot
-When $\mathfrak{g}$ is finite-dimensional complex semisimple, for each root $\alpha\in\Delta$, the restriction of the [[Killing Form|Killing form]] $B$ to $\mathfrak{h}$ identifies $\alpha$ with a unique element $h_{\alpha}\in\mathfrak{h}$:
-$$
-\alpha(h)=B(h_{\alpha},h),\forall h\in\mathfrak{h}.
-$$
-The **coroot** of $\alpha$ is
-$$
-H_{\alpha}=\frac{2h_{\alpha}}{B(h_{\alpha},h_{\alpha})}.
-$$
-It is normalized by
-$$
-\alpha(H_{\alpha})=2.
-$$
+## Reduced root space
+A root space $R$ satisfying that if $\alpha,k\alpha$ are both roots, then $k=\pm1$.
 
-## Properties
-1. $[\mathfrak{g}_{\alpha},\mathfrak{g}_{\beta}]\subset \mathfrak{g}_{\alpha+\beta}$.
-2. $\mathfrak{g}_{0}=\mathfrak{h}$ for finite-dimensional complex semisimple $\mathfrak{g}$.
-3. $\dim \mathfrak{g}_{\alpha}=1$ for every $\alpha\in\Delta$ when $\mathfrak{g}$ is finite-dimensional complex semisimple.
-4. The [[Killing Form|Killing form]] gives a non-degenerate pairing $\mathfrak{g}_{\alpha}\otimes\mathfrak{g}_{-\alpha}\to\mathbb{C}$.
+## Positive roots and simple roots
+Given a root space $R$, we can always choose a subset $R^{+}$ such that
+1. For any $\alpha\in R$, exactly one of $\pm \alpha$ is contained in $R^{+}$.
+2. For any two distinct $\alpha,\beta\in R^{+}$, if $\alpha+\beta\in R$, then $\alpha+\beta\in R^{+}$.
+The elements of $R^{+}$ are called **positive roots**.
 
+This also can be done by choosing a $p\in R$ such that $\forall\alpha\in R,(p,\alpha)\neq0$, then $R^{+}=\{ \alpha\in R:(\alpha,p)>0 \}$.
+
+A positive root is called **simple** if it can not be written as a sum of two positive roots. The set of simple roots is denoted by $\Pi \subset R^+$. $\Pi$ forms a basis of the vector space $E$.
+
+The set $\Pi$ of simple roots can be expressed with [[Dynkin Diagrams|Dynkin diagrams]] which are defined following:
+1. For each simple root we construct a vertex.
+2. For each pair of distinct simple roots $\alpha_{i},\alpha_{j}$, we connect the corresponding vertices by $n$ edges, where $n$ depends on the angle $\varphi= \arccos\frac{(\alpha_{i},\alpha_{j})}{|\alpha_{i}||\alpha_{j}|}$: 
+- $\varphi=\pi /2,n=0$ (vertices are not connected).
+- $\varphi=2\pi /3,n=1$.
+- $\varphi=3\pi /4,n=2$.
+- $\varphi=5\pi/6,n=3$.
+3. For each pair of distinct simple roots $\alpha_{i},\alpha_{j}$, if $|\alpha_{i}|\neq|\alpha_{j}|$ and they are not orthogonal, we orient the edge as the longer one pointing towards the shorter one.
+
+Irreducible reduced root spaces are fully categorized by simple roots and Dynkin diagrams:
+![[dynkin_diagrams.png]]

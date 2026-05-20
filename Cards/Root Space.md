@@ -11,9 +11,7 @@ The number $r=\mathrm{dim}(E)$ is called the **rank** of $R$.
 
 A **[[Morphism|morphism]] of root spaces** is a morphism of [[Vector Space|vector spaces]] $f:E_{1}\to E_{2}$ such that $f(R_{1})=R_{2}$ and $n_{f(\alpha)f(\beta)}=n_{\alpha\beta}$ for any $\alpha,\beta\in R_{1}$.
 
-
-## Reduced root space
-A root space $R$ satisfying that if $\alpha,k\alpha$ are both roots, then $k=\pm1$.
+A root space $R$ satisfying that, if $\alpha,k\alpha$ are both roots then $k=\pm1$, is called a **reduced root space**.
 
 ## Positive roots and simple roots
 Given a root space $R$, we can always choose a subset $R^{+}$ such that
@@ -34,5 +32,5 @@ The set $\Pi$ of simple roots can be expressed with [[Dynkin Diagrams|Dynkin dia
 - $\varphi=5\pi/6,n=3$.
 3. For each pair of distinct simple roots $\alpha_{i},\alpha_{j}$, if $|\alpha_{i}|\neq|\alpha_{j}|$ and they are not orthogonal, we orient the edge as the longer one pointing towards the shorter one.
 
-Irreducible reduced root spaces are fully categorized by simple roots and Dynkin diagrams:
+Irreducible reduced root spaces are fully class by simple roots and Dynkin diagrams:
 ![[dynkin_diagrams.png]]

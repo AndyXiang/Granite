@@ -35,7 +35,7 @@ $$W^{\mu \nu}=\frac{1}{2}\int \mathrm{d}^{3}p'\sum_{r,s}J^{\dagger \mu}J^{\nu}\d
 One can also derive the form of this tensor by Lorentz invariance and charge conservation:
 $$W^{\mu \nu}(\nu,q^{2})=\left( \frac{q^{\mu}q^{\nu}}{q^{2}}-g^{\mu \nu} \right)W_{1}(\nu,q^{2})+\left( p^{\mu}-\frac{p\cdot q}{q^{2}}q^{\mu} \right)\left( p^{\nu}-\frac{p\cdot q}{q^{2}}q^{\nu} \right) \frac{W_{2}(\nu,q^{2})}{m_{\mathrm{p}}^{2}},$$
 where $\nu=p\cdot q /m_{\mathrm{p}}$. $W_{1},W_{2}$ are called the *structure functions*. Now we can write the differential cross section explicitly as
-$$\frac{\mathrm{d}\sigma}{\mathrm{d\Omega}\mathrm{d}E'}=\frac{\alpha^{2}}{4E^{2}\sin ^{4} \frac{\theta}{2}} E'\left[ W_{2}(\nu,q^{2})\cos ^{2} \frac{\theta}{2}+2W_{1}(\nu,q^{2}) \sin ^{2} \frac{\theta}{2} \right].$$
+$$\frac{\mathrm{d}\sigma}{\mathrm{d\Omega}\mathrm{d}E'}=\frac{\alpha^{2}}{4E^{2}\sin ^{4} \frac{\theta}{2}} \left[ W_{2}(\nu,q^{2})\cos ^{2} \frac{\theta}{2}+2W_{1}(\nu,q^{2}) \sin ^{2} \frac{\theta}{2} \right].$$
 
 The experiments shows the structure functions of nucleon in deep elastic regime appears to have the *scaling phenomenon*, for which the functions $W_{1},W_{2}$ rely only on 
 $$x=\frac{Q^{2}}{2m_{\mathrm{N}}\nu}.$$

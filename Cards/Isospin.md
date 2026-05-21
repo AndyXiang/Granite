@@ -1,8 +1,6 @@
 ---
-type: card
-updated: 2025-12-06
 tags:
-  - Area/Physics/ParticlePhysics
+  - Area/Physics/ParticlePhysics/Symmetry
 ---
 **Isospin** is a [[Quantum Number|quantum number]] of [[Hadron|hadrons]] referring to the approximated inner global symmetry of [[SU(2)|SU(2)]]. 
 

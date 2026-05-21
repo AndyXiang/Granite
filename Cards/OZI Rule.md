@@ -1,7 +1,7 @@
 ---
 tags:
   - Area/Physics/ParticlePhysics
-  - Area/Physics/FieldTheory/QuantumFieldTheory
+  - Area/Physics/FieldTheory/QuantumChromodynamics
 ---
 The *Okubo-Zweig-Iizuka rule*, or **OZI rule**, is a heuristic rule that, if the [[Cards/Feynman Diagram|Feynman diagram]] of a decay process is disconnected between initial and final states when all internal [[Z Gluon|gluon]] lines are removed, such process is heavily suppression.
 

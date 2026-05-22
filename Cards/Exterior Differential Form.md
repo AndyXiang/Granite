@@ -12,3 +12,8 @@ An unary operation $\mathrm{d}:\Omega^{r}(M)\to\Omega^{r+1}(M)$ is introduced as
 $$\mathrm{d\omega}= \frac{1}{n!}\sum_{i_{1},\cdots,i_{n}}\mathrm{d}\omega_{i_{1}\cdots i_{n}}\wedge \mathrm{d}x^{i_{1}}\wedge \cdots\wedge \mathrm{d}x^{i_{n}}$$
 for $\mathrm{d}\omega_{i_{1}\cdots i_{n}}\in T^{*}M$. This is called the **exterior derivative**. It satisfies nilpotent condition $\mathrm{d}^{2}=0$.
 
+
+## Related
+1. A differential form $\omega$ is **closed** iff $\mathrm{d}\omega=0$, i.e. kernel of $\mathrm{d}$.
+2. A differential form $\omega\in \Omega^{r}(M)$ is **exact** iff $\exists\alpha\in \Omega^{r-1}(M)$ such that $\mathrm{d}\alpha=\omega$, i.e. image of $\mathrm{d}$.
+

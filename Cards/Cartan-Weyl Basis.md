@@ -1,7 +1,7 @@
 ---
 tags:
   - Area/Math/Algebra/LieAlgebra
-  - Area/Math/Algebra/LieAlgebra/RootSystem
+  - Area/Math/Algebra/VectorSpace/InnerProductSpace/RootSpace
 ---
 Let $\mathfrak{g}$ be a finite-dimensional complex [[Simple Lie Algebra|semisimple]] [[Lie Algebra|Lie algebra]], $\mathfrak{h}$ be its [[Cartan Subalgebra|Cartan subalgebra]], and $\Delta$ be the set of [[Root Space|roots]].
 

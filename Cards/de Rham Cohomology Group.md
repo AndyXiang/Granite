@@ -3,7 +3,7 @@ tags:
   - Area/Math/Geometry/Manifold/DifferentialManifold
   - Area/Math/Topology/Cohomology
 ---
-Let $M$ be a [[Differential Manifold|manifold]], and consider the [[Exterior Differential Form|differential forms]] $\omega\in\Omega^{r}(M)$ on it. The [[Set|set]] of [[Exterior Differential Form#Related|closed r-forms]] is called the $r$th **cocycle group** $Z^{r}(M)$. The set of [[Exterior Differential Form#Related|exact r-forms]] is called the $r$th **coboundary group** $B^{r}(M)$. It follows from $\mathrm{d}^{2}=0$ that $Z^{r}(M) \supset B^{r}(M)$.
+Let $M$ be a [[Differential Manifold|manifold]], and consider the [[Exterior Differential Form|differential forms]] $\omega\in\Omega^{r}(M)$ on it. The [[Set|set]] of [[Exterior Differential Form#Related|closed r-forms]] is called the $r$th **cocycle [[Group|group]]** $Z^{r}(M)$. The set of [[Exterior Differential Form#Related|exact r-forms]] is called the $r$th **coboundary group** $B^{r}(M)$. It follows from $\mathrm{d}^{2}=0$ that $Z^{r}(M) \supset B^{r}(M)$.
 
 The $r$th **de Rham cohomology group** is defined by
 $$H^{r}(M)=Z^{r}(M) /B^{r}(M).$$

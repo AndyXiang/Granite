@@ -13,6 +13,7 @@ A **[[Morphism|morphism]] of root spaces** is a morphism of [[Vector Space|vecto
 
 A root space $R$ satisfying that, if $\alpha,k\alpha$ are both roots then $k=\pm1$, is called a **reduced root space**.
 
+For root $\alpha$, the **coroot** is $\alpha^{\vee}\in E^{*}$ defined by $\alpha^{\vee}(\lambda)=2(\alpha,\lambda) /(\alpha,\alpha)$.
 ## Positive roots and simple roots
 Given a root space $R$, we can always choose a subset $R^{+}$ such that
 1. For any $\alpha\in R$, exactly one of $\pm \alpha$ is contained in $R^{+}$.

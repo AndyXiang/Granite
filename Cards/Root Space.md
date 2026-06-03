@@ -2,8 +2,8 @@
 tags:
   - Area/Math/Algebra/VectorSpace/InnerProductSpace/RootSpace
 ---
-Let $E$ be a [[Inner Product Space|inner product space]] over [[Field (Math)|field]] $\mathbb{K}$ with inner product $(\cdot,\cdot):E\times E\to \mathbb{K}$. A **root space** $R$ is a finite [[Subset|subset]] of $E-\{ 0 \}$ such that:
-1. $R$ generates $E$, i.e. $E=\mathrm{span}_{\mathbb{K}}(R)$.
+Let $E$ be a real [[Inner Product Space|inner product space]] with inner product $(\cdot,\cdot):E\times E\to \mathbb{R}$. A **root space** $R$ is a finite [[Subset|subset]] of $E-\{ 0 \}$ such that:
+1. $R$ generates $E$, i.e. $E=\mathrm{span}_{\mathbb{R}}(R)$.
 2. $\forall\alpha,\beta\in R$, the number $n(\alpha,\beta)=2(\alpha,\beta) /(\beta,\beta)$ is an integer.
 3. Let $s_{\alpha}:E\to E$ as $$s_{\alpha}(x)=x-\frac{2(\alpha,x)}{(\alpha,\alpha)}\alpha.$$ Then $\forall\alpha,\beta\in R,s_{\alpha}(\beta)\in R$.
 

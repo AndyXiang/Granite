@@ -1,10 +1,10 @@
 ---
 tags:
-  - Area/Math/Geometry
   - Area/Math/Topology/Homology
+  - Area/Math/Category/AdditiveCategory/AbelianCategory/Homology
 ---
 ## Of chain complexes
-Let $K$ be a $n$-dimensional [[Simplex|simplicial simplex]] and $C_{r}(K)$ be its [[Chain Complex|chain group]]. The [[Chain Complex|boundary operator]] $\partial_{r}$ is a map $C_{r}(K)\to C_{r-1}(K)$.
+Let $K$ be a $n$-dimensional [[Simplex|simplicial simplex]] and $C_{r}(K)$ be its [[Chain Complex & Cochain complex|chain group]]. The [[Chain Complex & Cochain complex|boundary operator]] $\partial_{r}$ is a map $C_{r}(K)\to C_{r-1}(K)$.
 
 The kernel of $\partial_{r}$ is a [[Subgroup|subgroup]] of chain group
 $$Z_{r}(K)=\mathrm{ker}(\partial _{r})\lhd C_{r}(K).$$

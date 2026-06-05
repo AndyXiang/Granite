@@ -3,6 +3,9 @@ tags:
   - Area/Math/Topology/FiberBundle
   - Area/Math/Geometry/Manifold/DifferentialManifold
   - Area/Math/Algebra/VectorSpace
+aliases:
+  - Tensor Field
+  - Vector Field
 ---
 **Tangent bundle** is a [[Vector Bundle|vector bundle]] $TM=(E,M,T_{p}M,\pi)$ where $E$ and $M$ are [[Differential Manifold|differential manifold]], and $T_{p}M$ is the [[Tangent Space|tangent space]] of arbitrary $p\in M$ . Here $\pi$ and local trivializations are [[Smooth Mapping|smooth mappings]]. 
 

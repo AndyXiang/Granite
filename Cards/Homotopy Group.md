@@ -22,7 +22,7 @@ Typically one can define the zeroth homotopy group $\pi_{0}(X)$, which is actual
 
 
 ## Examples
-1. $\pi_{1}(\mathrm{S}^{1})\cong \mathbb{Z}$.
+1. $\pi_{1}(\mathbb{S}^{1})\cong \mathbb{Z}$.
 2. $\pi_{1}(T^{2})\cong \mathbb{Z}\oplus \mathbb{Z}$.
 3. $\pi_{1}(\mathrm{\mathrm{SO}}(n))=\mathbb{Z}_{2}$.
 
@@ -39,9 +39,9 @@ Here is a table of some useful homotopy groups:
 | $\mathrm{SU}(2)$       |            $0$ |          $0$ |            $\mathbb{Z}$ |              $\mathbb{Z}_2$ |              $\mathbb{Z}_2$ |                 $\mathbb{Z}_{12}$ |
 | $\mathrm{SU}(3)$       |            $0$ |          $0$ |            $\mathbb{Z}$ |                         $0$ |                $\mathbb{Z}$ |                    $\mathbb{Z}_6$ |
 | $\mathrm{SU}(n),\ n>3$ |            $0$ |          $0$ |            $\mathbb{Z}$ |                         $0$ |                $\mathbb{Z}$ |                               $0$ |
-| $S^2$                  |            $0$ | $\mathbb{Z}$ |            $\mathbb{Z}$ |              $\mathbb{Z}_2$ |              $\mathbb{Z}_2$ |                 $\mathbb{Z}_{12}$ |
-| $S^3$                  |            $0$ |          $0$ |            $\mathbb{Z}$ |              $\mathbb{Z}_2$ |              $\mathbb{Z}_2$ |                 $\mathbb{Z}_{12}$ |
-| $S^4$                  |            $0$ |          $0$ |                     $0$ |                $\mathbb{Z}$ |              $\mathbb{Z}_2$ |                    $\mathbb{Z}_2$ |
+| $\mathbb{S}^2$         |            $0$ | $\mathbb{Z}$ |            $\mathbb{Z}$ |              $\mathbb{Z}_2$ |              $\mathbb{Z}_2$ |                 $\mathbb{Z}_{12}$ |
+| $\mathbb{S}^3$         |            $0$ |          $0$ |            $\mathbb{Z}$ |              $\mathbb{Z}_2$ |              $\mathbb{Z}_2$ |                 $\mathbb{Z}_{12}$ |
+| $\mathbb{S}^4$         |            $0$ |          $0$ |                     $0$ |                $\mathbb{Z}$ |              $\mathbb{Z}_2$ |                    $\mathbb{Z}_2$ |
 | $G_2$                  |            $0$ |          $0$ |            $\mathbb{Z}$ |                         $0$ |                         $0$ |                    $\mathbb{Z}_3$ |
 | $F_4$                  |            $0$ |          $0$ |            $\mathbb{Z}$ |                         $0$ |                         $0$ |                               $0$ |
 | $E_6$                  |            $0$ |          $0$ |            $\mathbb{Z}$ |                         $0$ |                         $0$ |                               $0$ |

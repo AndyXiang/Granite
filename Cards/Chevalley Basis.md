@@ -5,9 +5,9 @@ tags:
 ---
 Let $\mathfrak{g}$ be a finite-dimensional complex [[Simple Lie Algebra|semisimple]] [[Lie Algebra|Lie algebra]], $\mathfrak{h}$ be its [[Cartan Subalgebra|Cartan subalgebra]], and $R\subset \mathfrak{h}^{*}$ be its [[Root Space|root space]].
 
-A **Cartan-Weyl basis** is a basis of $\mathfrak{g}$ adapted to the **root space decomposition**
+The **Chevalley basis** is a basis of $\mathfrak{g}$ adapted to the *root space decomposition*
 $$
-\mathfrak{g}=\mathfrak{h}\oplus\bigoplus_{\alpha\in R}\mathfrak{g}_{\alpha}.
+\mathfrak{g}=\mathfrak{n}_{+}\oplus \mathfrak{h}\oplus  \mathfrak{n}_{-}.
 $$
 It consists of:
 1. a basis $\{H_{i}\}$ of $\mathfrak{h}$,

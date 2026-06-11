@@ -7,9 +7,9 @@ In this note, we discuss the [[Representation (Lie Algebra)|representation]] of 
 1. The classification of finite-dimensional [[Irreducible Representation|irreducible representation]].
 2. Calculation about a irreducible representation.
 
-## Classification of represenations
+## Classification of representations
 ### Weight decomposition
-The key of study the representations of $\mathfrak{g}$ is decomposing the representation into eigenspace of Cartan subalgebra $\mathfrak{h}$. Let $V$ be a representation of $\mathfrak{g}$. A vector $v$ is of weight $\lambda\in \mathfrak{h}^{*}$ iff $h.v=\lambda(h)v$ for all $h\in \mathfrak{h}$. The space of all vectors of weight $\lambda$ is called the *weight space* and denoted by $V[\lambda]$. It's easy for one to verify that every two vectors of different weights are linear independent, which implies that the set $P(V)$ of all weights is finite for a finite-dimensional representation.
+The key of study the representations of $\mathfrak{g}$ is decomposing the representation into eigenspace of Cartan subalgebra $\mathfrak{h}$. Let $V$ be a representation of $\mathfrak{g}$. A vector $v$ is of **weight** $\lambda\in \mathfrak{h}^{*}$ iff $h.v=\lambda(h)v$ for all $h\in \mathfrak{h}$. The space of all vectors of weight $\lambda$ is called the **weight space** and denoted by $V[\lambda]$. It's easy for one to verify that every two vectors of different weights are linear independent, which implies that the set $P(V)$ of all weights is finite for a finite-dimensional representation.
 
 In analogous to the study [[Representation (Group)|representations of groups]], let's introduce the *character* for representations of Lie algebra. Let $\mathbb{C}[P]$ be the algebra generated formal expression $\mathrm{e}^{ \lambda }$ for $\lambda \in P$, subject to the following relations:
 $$\mathrm{e}^{ \lambda }\mathrm{e}^{ \mu }=\mathrm{e}^{ \lambda+\mu },\mathrm{e}^{ 0}=1.$$
@@ -28,16 +28,71 @@ Note that there are many non-isomorphic highest weight representations with same
 
 For Verma module, one has
 >[!tip] Theorem 2
->Any highest weight representation $V$ of highest weight $\lambda$ then $V\cong M_{\lambda} /W$ for some submodule of $M_{\lambda}$.
+>Any highest weight representation $V$ of highest weight $\lambda$ satisfies that $V\cong M_{\lambda} /W$ for some submodule of $M_{\lambda}$.
 
 Let $\Pi$ be the set of [[Root Space#Positive roots and simple roots|simple roots]], $Q_{+}=\left\{  \sum_{\alpha_{i}\in \Pi} n_{i}\alpha_{i}:n_{i}\in \mathbb{Z}_{+} \right\}$. Then the weights $P(M_{\lambda})=\lambda-Q_{+}$. This implies that the highest weight is unique.
 
-### Finite-dimensionality
-For every $\lambda\in \mathfrak{h}^{*}$, one can construct the Verma module $M_{\lambda}$, which contains an unique irreducible representation up to isomorphism as a quotient. Let's denote it as $L_{\lambda}$. So the question left is when the space $L_{\lambda}$ is finite-dimensional. That will leads to a specific property of the highest weight $\lambda$.
+### Finite-dimensional representations
+For every weight $\lambda\in \mathfrak{h}^{*}$, one can construct the Verma module $M_{\lambda}$, which contains an unique irreducible representation up to isomorphism as a quotient. Let's denote it as $L_{\lambda}$. So the question left is when the space $L_{\lambda}$ is finite-dimensional. That will leads to a specific property of the highest weight $\lambda$.
 
-A weight $\lambda$ is called *dominant integral* iff $\lambda(\alpha^{\vee})\in \mathbb{Z}_{+}$, for all $\alpha\in R_{+}$. The set of dominant integral weights is denoted by $P_{+}$. Our main theorem is
+A weight $\lambda$ is called *dominant integral* iff $\lambda(\alpha^{\vee})\in \mathbb{Z}_{+}$, for [[Root Space#Positive roots and simple roots|positive root]] $\alpha\in R_{+}$ and $\alpha^{\vee}=2(\alpha,\lambda) /(\alpha,\alpha)$. The set of dominant integral weights is denoted by $P_{+}$. Our main theorem is
 >[!tip] Theorem 3
 >The representation $L_{\lambda}$ is finite-dimensional iff $\lambda\in P_{+}$.
 
+Our next goal is to give a analysis on the structure of $L_{\lambda}$. First we know that $L_{\lambda}=M_{\lambda} /J_{\lambda}$, for a maximal proper submodule $J_{\lambda}$. Actually, one has the following result
+>[!tip] Theorem 4
+>There is an isomorphism 
+> $$L_{\lambda}\cong \frac{M_{\lambda}}{\sum_{\alpha\in \Pi}M_{s_{\alpha}.\lambda}}.$$
 
-## Calculations on irreps
+Here $W$ is the [[Weyl Group|Weyl group]] and $s_{\alpha}.\lambda=\lambda-(n+1)\alpha$ for simple root $\alpha$ and $n=\alpha^{\vee}(\lambda)$. But the dimension of $L_{\lambda}$ can't be directly derived from this result, since the submodule is not a direct sum. To resolve this problem, we introduce the idea of [[Homology & Cohomology|homology]].
+
+>[!tip] Bernstein-Gelfand-Gelfand resolution
+>There is a long [[Complex|exact series]] as
+> $$0 \to M_{w_{0}.\lambda}\to \dots \to\bigoplus_{l(w)=k} M_{w.\lambda} \to \dots \to \bigoplus_{\alpha\in \Pi}M_{s_{\alpha}.\lambda}\to M_{\lambda}\to L_{\lambda}\to0.$$
+
+Here $l(w)$ is the [[Weyl Group|length]] of the elements of Weyl group. The action is defined by $w.\lambda=w(\lambda+\rho)-\rho$ for $\rho=\frac{1}{2}\sum_{\alpha\in R_{+}}\alpha$ and $w(\lambda)$ is the usual reflection.
+
+Using BGG resolution, we are able to calculate the character of $L_{\lambda}$. To begin with, the character of Verma module is
+$$\mathrm{ch}(M_{\lambda})= \frac{\mathrm{e}^{ \lambda }}{\prod_{\alpha\in R_{+}}(1-\mathrm{e}^{ -\alpha })},$$
+where each factor is a formal series $(1-\mathrm{e}^{ -\alpha })^{-1}=1+\mathrm{e}^{ -\alpha }+\mathrm{e}^{ -2\alpha }+\cdots$. Then the character of $L_{\lambda}$ can be derived from the long exact sequence as
+>[!note] Weyl character formula
+$$\mathrm{ch}(L_{\lambda})=\frac{\sum_{w\in W}(-1)^{l(w)}\mathrm{e}^{ w.\lambda }}{\prod_{\alpha\in R_{+}}(1-\mathrm{e}^{ -\alpha })}.$$
+
+Thus the character of $L_{\lambda}$ is given by a quotient of two polynomials. On the other hand, $L_{\lambda}$ admits a weight decomposition, thus
+$$\mathrm{ch}(L_{\lambda})=\sum_{\mu} \mathrm{dim}(L_{\lambda}[\mu])\mathrm{e}^{ \mu }$$
+that is a polynomial. Formally, one obtains the dimension by setting every exponential to $1$. But the numerator and dominator in Weyl character formula both vanish by the setting. To compute the nontrivial limit of $0 /0$, we can introduce the $q$-dimension
+$$\mathrm{dim}_{q}(V)=\sum_{\lambda}\mathrm{dim}(V[\lambda])q^{2(\rho,\lambda)}.$$
+Note $\rho=\frac{1}{2}\sum_{R_{+}}\alpha$. It follows
+$$\mathrm{dim}_{q}(L_{\lambda})=\prod_{\alpha\in R_{+}} \frac{q^{(\lambda+\rho,\alpha)}-q^{-(\lambda+\rho,\alpha)}}{q^{(\rho,\alpha)}-q^{-(\rho,\alpha)}}.$$
+Now take the limit $q\to1$ and the identity $\lim_{q\to1}(q^{A}-q^{-A}) /(q^{B}-q^{-B})=A /B$, we have the **Weyl dimension formula**
+>[!note] Weyl dimension formula
+> $$\mathrm{dim}(L_{\lambda})= \prod_{\alpha\in R_{+}} \frac{(\lambda+\rho,\alpha)}{(\rho,\alpha)}.$$
+
+By this, we can also reach to the decomposition of reducible representation. Suppose $V=\bigoplus_{\lambda\in P_{+}} n_{\lambda}L_{\lambda}$, $n_{\lambda}$ is called the multiplicity. The character gives
+$$\mathrm{ch}(V)=\sum_{\lambda\in P_{+}} n_{\lambda} \mathrm{ch}(L_{\lambda}).$$
+One can prove that, $\{ \mathrm{ch}(L_{\lambda}),\lambda\in P_{+} \}$ is a basis of $\mathbb{C}[P]^{W}$, i.e. the $W$-invariant polynomial ring. So computation of multiplicities $n_{\lambda}$ is now a linear algebra problem. Begin with a given character $\mathrm{ch}(V)$ and all irreducible representation $\mathrm{ch}(L_{\lambda})$, the algorithm is
+1. $\mathrm{ch}(V)$ is not zero,
+2. find the biggest dominant integral weight $\lambda$ (recall that $\lambda \preceq \mu \Leftrightarrow \mu-\lambda\in Q_{+}$),
+3. $n_{\lambda}$ equals to the coefficient of $L_{\lambda}$,
+4. subtract $n_{\lambda}\mathrm{ch}(L_{\lambda})$ from $\mathrm{ch}(V)$, and back to step 1.
+
+A direct application is the decomposition of direct product of irreducible representations $L_{\lambda}\otimes L_{\mu}$, as
+$$\mathrm{ch}(L_{\lambda}\otimes  L_{\mu})=\mathrm{ch}(L_{\lambda}) \cdot \mathrm{ch}(L_{\mu})=\sum_{\nu}N^{\nu}_{~~\lambda \mu}\mathrm{ch}(L_{\nu}),$$
+where $N^{\nu}_{~~\lambda \mu}$ are the multiplicities.
+
+## Computation of irreps
+Let $\mathfrak{g}$ be a simple Lie algebra with known Dynkin diagram. Thus we have the Chevalley basis $\{e_{i},f_{i},h_{i}\}$ with simple roots $\Pi=\{ \alpha_{i} ,i=1,2,\cdots,r\}$. The basis for weights are
+$$\omega_{i}=\sum_{j}\alpha_{j}(A^{-1})_{ji}.$$
+The dominant integral weights are 
+$$P_{+}=\left\{  \sum_{k}m_{i}\omega_{i}:m_{i}\in \mathbb{Z}_{\geq 0}  \right\}.$$
+
+Pick a highest weight $\lambda\in P_{+}$, we want to compute the weight decomposition of irreducible representation $L_{\lambda}=\sum_{\mu} n_{\lambda}[\mu]L_{\lambda}[\mu]$. You can use Weyl character formula, or **Freudenthal formula**
+$$n_{\lambda}[\mu]= \frac{2\sum_{\alpha\in R_{+}}\sum_{k\geq1} (\mu+k\alpha,\alpha)n_{\lambda}[\mu+k\alpha]}{(\lambda+\rho,\lambda+\rho)-(\mu+\rho,\mu+\rho)}.$$
+
+Finally, we illustrate how to write the representation in Chevalley basis. The basis rule is that, $h_{i}$ is diagonal in every weight subspace, and
+$$e_{i}(L_{\lambda}[\mu])\subset L_{\lambda}[\mu+\alpha_{i}],f_{i}(L_{\lambda}[\mu])\subset L_{\lambda}[\mu-\alpha_{i}].$$
+For $\{ e_{i},f_{i},h_{i} \}$ corresponding to simple root $\alpha_{i}$, there is a series of weights $\mu,\mu-\alpha_{i},\cdots,\mu-n\alpha_{i}$ where $\mu+\alpha_{i}$ is not a weight. A choice of the basis vectors that are *orthonormal* is as $v_{k}^{(i)}=\sqrt{ \frac{(n-k)!}{n!k!} }f^{k}_{i}v_{0}$ and
+$$e_{i}v_{k}^{(i)}=\sqrt{ k(n-k+1) }v_{k-1}^{(i)},f_{i}v_{k}^{(i)}=\sqrt{ (n-k)(k+1) }v_{k+1}^{(i)},h_{i}v_{k}^{(i)}=(n-2k)v_{k}^{(i)}.$$
+In this basis, one has $\rho(e_{i})=(\rho(f_{i}))^{\dagger}$. If some weight space is of multiplicities that is greater than $1$, one must consider $v^{(i)}_{k}$ as the linear combination of some orthonormal basis in the weight space. The choice of such basis can be done by an appropriate invariant hermitian form, i.e. $h(fv,fv)=h(v,efv)$ and a [[Gram-Schmit Orthonormalization|Gram-Schmit orthonormalization]].
+
+

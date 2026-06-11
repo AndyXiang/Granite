@@ -54,7 +54,7 @@ The massless gauge field $A_{\mu}$ (distinguish from $A^{a}_{\mu}$) is identifie
 $$\cos\theta_{W}\approx 0.881.$$
 For simplicity, let's work in [[Unitary Gauge|unitary gauge]], where we set $\rho(x)=0$. The potential now reads
 $$V(H)=\frac{1}{4}\lambda v^{2}H^{2}+\frac{1}{4}\lambda vH^{3}+\frac{1}{16}\lambda H^4.$$
-The kinetic term for gauge fields give 
+The kinetic term for gauge fields is given by
 $$\begin{align}
 \mathcal{L}&=-\frac{1}{4}F_{\mu \nu}F^{\mu \nu}-\frac{1}{4}Z_{\mu \nu}Z^{\mu \nu}-D^{\dagger \mu}W^{-\nu}D_{\mu}W^{+ }_{\nu}+D^{\dagger \mu}W^{-\nu}D_{\nu}W^{+ }_{\mu} \\
 &\qquad+\mathrm{i}e(F^{\mu \nu}+\cot\theta_{W}Z^{\mu \nu})W^{+}_{\mu}W^{-}_{\nu}-\frac{e^{2}}{2\sin ^{2}\theta_{W}}(W^{+\mu}W^{-}_{\mu}W^{+\nu}W^{-}_{\nu}-W^{+\mu}W^{+}_{\mu}W^{-\nu}W^{-}_{\nu}).

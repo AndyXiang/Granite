@@ -13,7 +13,7 @@ for all $g\in G$ and [[Borel Measure|Borel measurable]] sets $E$. The right Haar
 >Let $G$ be a $\sigma$-compact locally compact Hausdorff group. Then there exists a left Haar measure $\mu$ on $G$. Further more, this measure is unique up to scalars; that is, for two left Haar measure $\mu,\nu$, then $\mu=\lambda \nu$ for some $\lambda>0$.
 
 ## Examples
-1. [[Z Lebesgue Measure|Lebesgue measure]] is a left Haar measure on Euclidean spaces $\mathbb{R}^{d}$ as the group of addition.
+1. [[Lebesgue Measure|Lebesgue measure]] is a left Haar measure on Euclidean spaces $\mathbb{R}^{d}$ as the group of addition.
 2. If $G$ is a countable discrete group, then the measure by counting is a left and right Haar measure.
 
 ## Computations

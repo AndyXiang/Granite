@@ -11,7 +11,7 @@ where $\Gamma_{\mu}(p,p')$ is the vertex for proton. The [[Vector Space|vector s
 $$\Gamma^{\mu}(p,p')=K_{1}(q^{2})\gamma^{\mu}+\mathrm{i}\sigma_{\mu \nu}(p'-p)^{\nu}K_{2}(q^{2})+\mathrm{i}\sigma_{\mu \nu}(p'+p)^{\nu}K_{3}(q^{2})+(p'+p)^{\mu}K_{4}(q^{2})+(p'-p)^{\mu}K_{5}(q^{2}),$$
 where $q=p'-p$. Use the [[Spinor|Gordon identity]] to simplify
 $$J^{\mu}(p',p)=\bar{u}(p')\Gamma^{\mu}u(p)=\bar{u}(p')[\gamma^{\mu}F_{1}(q^{2})+\mathrm{i}F_{2}(q^{2})\sigma^{\mu \nu}q_{\nu}+q^{\mu}F_{3}(q^{2})]u(p).$$
-The [[Ward Identity|Ward identity]] (standing for charge conservation) $q_{\mu}J^{\mu}=0$ further requires $F_{3}(q^{2})=0$. Thus one is left with
+The [[Ward-Takahashi Identity|Ward identity]] (standing for charge conservation) $q_{\mu}J^{\mu}=0$ further requires $F_{3}(q^{2})=0$. Thus one is left with
 $$J^{\mu}(p',p)=\bar{u}(p')\Gamma^{\mu}u(p)=\bar{u}(p')[\gamma^{\mu}F_{1}(q^{2})+\mathrm{i}F_{2}(q^{2})\sigma^{\mu \nu}q_{\nu}]u(p),$$
 with two **form factors** $F_{1}(q^{2}),F_{2}(q^{2})$.
 

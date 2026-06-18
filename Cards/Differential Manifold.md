@@ -7,5 +7,5 @@ Let $M$ be a [[Topological Manifold|topological manifold]]. A **differential str
 If the differential structure is $C^{\infty}$ differentiable, then we call it a **smooth manifold**.
 
 ## Related concepts
-1. The **functions** on differential manifolds are [[Map|mappings]] $f:M\to \mathbb{R}$. If for every chart $(U,\phi)$, $\phi ^{-1}\circ f:\mathbb{R}^{n}\to \mathbb{R}$ is $C^{\infty}$ differentiable, then $f$ is a **smooth function**.
+1. The **functions** on differential manifolds are [[Map|mappings]] $f:M\to \mathbb{R}$. If for every chart $(U,\phi)$, $\phi ^{-1}\circ f:\mathbb{R}^{n}\to \mathbb{R}$ is $C^{\infty}$ differentiable, then $f$ is a **smooth function**. The set of all functions denote $\mathfrak{F}(M)$.
 2. A **curve** on differential manifold $M$ is a mapping $c:\mathbb{R}\to M$.

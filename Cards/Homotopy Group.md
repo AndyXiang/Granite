@@ -1,14 +1,17 @@
 ---
 tags:
   - Area/Math/Topology/Homotopy
+  - Area/Math/Algebra/Group
+aliases:
+  - Fundamental Group
 ---
-Let $\alpha:I\to X$ be a [[Path|loop]] at point $x_{0}$ on the [[Topological Space|topological space]] $X$ and $[\alpha]$ be its [[Homotopy|homotopy class]].
+Let $\alpha:I\to X$ be a [[Path|loop]] at point $x_{0}$ on the [[Topological Space|topological space]] $X$ and $[\alpha]$ be its [[Homotopy|homotopy classes]].
 
 The set of homotopy classes of loops at $x\in X$ is denoted by $\pi_{1}(X,x)$, which is called the **fundamental [[Group|group]]** (or **first homotopy group**) at $x_{0}$, with group properties as followed:
 1. $[\alpha]*[\beta]=[\alpha*\beta]$.
 2. $[\alpha]*[c_{x}]=[\alpha]$.
 3. $[\alpha]*[\alpha ^{-1}]=[c_{x}]\implies[\alpha]^{-1}=[\alpha ^{-1}]$.
-
+Here $c_{x}$ represents the constant loop at $x$.
 
 Let $I^{n}=\{ (s_{1},\cdots,s_{n}):0\leq s_{i}\leq 1 \}$. The continuous map $\alpha:I^{n}\to X$ which maps the boundary $\partial I^{n}$ to a point $x$ of $X$ is called a **n-loop** at $x$. The set of homotopy classes of n-loops at $x\in X$ is denoted by $\pi_{n}(X,x)$, called the **$n$th homotopy group**.
 
@@ -48,3 +51,4 @@ Here is a table of some useful homotopy groups:
 | $E_7$                  |            $0$ |          $0$ |            $\mathbb{Z}$ |                         $0$ |                         $0$ |                               $0$ |
 | $E_8$                  |            $0$ |          $0$ |            $\mathbb{Z}$ |                         $0$ |                         $0$ |                               $0$ |
 
+Here $G_{2},F_{4},E_{6},E_{7},E_{8}$ are [[Exceptional Lie Groups|exceptional Lie groups]].

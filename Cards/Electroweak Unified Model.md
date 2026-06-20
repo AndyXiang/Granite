@@ -89,8 +89,8 @@ Leptons are all color singlets, thus no [[Strong Interaction|strong interaction]
 There is no naive mass term $m(l^{\dagger}_{L}e_{R}+e_{R}^{\dagger}l_{L})$ for leptons, since this is not a gauge group singlet
 $$\left( \frac{1}{2}, \frac{1}{2} \right)\otimes (0,-1)\cong\left( \frac{1}{2},-\frac{1}{2} \right).$$
 However, a Yukawa coupling associated with Higgs field can give the leptons' mass after spontaneous symmetry breaking. From the aspect of [[Representation (Lie Group)|representation of Lie groups]], a term like $\varphi l_{L}e_{R}^{\dagger}$ is in the representation
-$$\left( \frac{1}{2},-\frac{1}{2} \right)\otimes \left( \frac{1}{2},-\frac{1}{2} \right)\otimes (0,1)=(1,0)\otimes (3,0),$$
-so by choosing a projector, one can get a representation $(1,0)$. After all, the allowed Yukawa term is
+$$\left( \frac{1}{2},-\frac{1}{2} \right)\otimes \left( \frac{1}{2},-\frac{1}{2} \right)\otimes (0,1)=(0,0)\otimes (1,0),$$
+so by choosing a projector, one can get a representation $(0,0)$. After all, the allowed Yukawa term is
 $$\mathcal{L}_{\pu{ Yukawa}}=-\frac{1}{\sqrt{ 2 }}y_{e}e_{R}^{\dagger}\varepsilon^{ij}\varphi_{i}l_{j}+\mathrm{h.c.}$$
 After symmetry breaking, the VEV results in the mass term
 $$\mathcal{L}_{\pu{ Yukawa}}=-\frac{1}{2}y_{e}(v+H)e_{R}^{\dagger}e_{L}+\mathrm{h.c.}$$

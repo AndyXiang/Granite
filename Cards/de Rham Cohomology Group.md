@@ -3,7 +3,8 @@ tags:
   - Area/Math/Geometry/Manifold/DifferentialManifold
   - Area/Math/Topology/Cohomology
 ---
-Let $M$ be a [[Differential Manifold|manifold]], and consider the [[Exterior Differential Form|differential forms]] $\omega\in\Omega^{r}(M)$ on it. The [[Set|set]] of [[Exterior Differential Form#Related|closed r-forms]] is called the $r$th **cocycle [[Group|group]]** $Z^{r}(M)=\mathrm{ker}(\mathrm{d}|_{\Omega^{r}(M)})$. The set of [[Exterior Differential Form#Related|exact r-forms]] is called the $r$th **coboundary group** $B^{r}(M)=\mathrm{im}(\mathrm{d}|_{\Omega^{r-1}(M)})$. It follows from $\mathrm{d}^{2}=0$ that $Z^{r}(M) \supset B^{r}(M)$.
+Let $M$ be a [[Differential Manifold|manifold]], and consider the [[Exterior Differential Form|differential forms]] $\omega\in\Omega^{r}(M)$ on it. The [[Set|set]] of [[Exterior Differential Form#Related|closed r-forms]] is called the $r$th **cocycle [[Group|group]]** $Z^{r}(M)=\mathrm{ker}(\mathrm{d}|_{\Omega^{r}(M)})$. The set of [[Exterior Differential Form#Related|exact r-forms]] is called the $r$th **coboundary group** $B^{r}(M)=\mathrm{im}(\mathrm{d}|_{\Omega^{r-1}(M)})$. It follows from $\mathrm{d}^{2}=0$ that $Z^{r}(M) \supset B^{r}(M)$. There is a [[Chain Complex & Cochain complex|cochain complex]]
+$$0\to \Omega^{0}(M)\xrightarrow{~d~} \Omega^{1}(M)\xrightarrow{~d~} \cdots \xrightarrow{~d~} \Omega^{n}(M)\to0$$
 
 The $r$th **de Rham cohomology group** is defined by
 $$H^{r}(M)=Z^{r}(M) /B^{r}(M).$$

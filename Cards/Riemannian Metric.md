@@ -5,7 +5,7 @@ tags:
 ---
 Let $M$ be a [[Differential Manifold|differential manifold]]. A **Riemannian metric** $g$ is a rank $(0,2)$ [[Tangent Bundle|tensor field]] over $M$ that satisfies
 1. *symmetric*: $g(x,y)=g(y,x)$, for all [[Tangent Bundle|vector fields]] $x,y\in \mathfrak{X}(M)$.
-2. *non-negative*: $g(x,x)\geq 0$, for all [[Tangent Bundle|vector fields]] $x\in \mathfrak{X}(M)$.
+2. *non-negative*: $g(x,x)\geq 0$, for all [[Tangent Bundle|vector fields]] $x\in \mathfrak{X}(M)$, where equality holds only for $x=0$.
 
 A **pseudo-Riemannian metric** $g$ is a rank $(0,2)$ tensor field that is symmetric and satisfies $\forall x\in TM,g(x,y)=0\implies y=0$.
 

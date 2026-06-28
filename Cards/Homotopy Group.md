@@ -5,9 +5,9 @@ tags:
 aliases:
   - Fundamental Group
 ---
-Let $\alpha:I\to X$ be a [[Path|loop]] at point $x_{0}$ on the [[Topological Space|topological space]] $X$ and $[\alpha]$ be its [[Homotopy|homotopy classes]].
+Let $\alpha:I\to X$ be a [[Path|loop]] at point $x_{0}$ on the [[Topological Space|topological space]] $X$ and $[\alpha]$ be its.
 
-The set of homotopy classes of loops at $x\in X$ is denoted by $\pi_{1}(X,x)$, which is called the **fundamental [[Group|group]]** (or **first homotopy group**) at $x_{0}$, with group properties as followed:
+The set of homotopy classes of loops at $x\in X$ is denoted by $\pi_{1}(X,x)$, which is called the **fundamental [[Group|group]]** (or **first homotopy group**) at $x$, with group properties as followed:
 1. $[\alpha]*[\beta]=[\alpha*\beta]$.
 2. $[\alpha]*[c_{x}]=[\alpha]$.
 3. $[\alpha]*[\alpha ^{-1}]=[c_{x}]\implies[\alpha]^{-1}=[\alpha ^{-1}]$.
@@ -20,7 +20,7 @@ Typically one can define the zeroth homotopy group $\pi_{0}(X)$, which is actual
 ## Properties
 1. If $X$ is [[Connected Space|arcwise connected]], then the homotopy groups at every point are [[Homomorphism (Group)|isomorphic]].  
 2. If $X,Y$ are both arcwise connected, then $\pi_{1}(X\times Y)\cong \pi_{1}(X)\oplus \pi_{1}(Y)$.
-3. If $X,Y$ are of the same [[Homotopy Type|homotopy type]], and $f:X\to Y$ is a homotopy equivalence, then $\pi_{1}(X,x)$ is isomorphic to $\pi_{1}(Y,f(x))$.
+3. If $X,Y$ are [[Homotopy Equivalence|homotopy equivalent]], and $f:X\to Y$ is a homotopy equivalence, then $\pi_{1}(X,x)$ is isomorphic to $\pi_{1}(Y,f(x))$.
 4. Let $(\tilde{X},p)$ be the [[Covering Space|universal covering space]] of $X$, and $p(\tilde{x}_{0})=x_{0}$, then the induced [[Homomorphism (Group)|homomorphism]] $$p_{*}: \pi_{n}(\tilde{X},\tilde{x})\to \pi_{n}(X,x)$$is an isomorphism for $n\geq2$.
 
 

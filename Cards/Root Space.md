@@ -34,4 +34,370 @@ The set $\Pi$ of simple roots can be expressed with [[Dynkin Diagrams|Dynkin dia
 3. For each pair of distinct simple roots $\alpha_{i},\alpha_{j}$, if $|\alpha_{i}|\neq|\alpha_{j}|$ and they are not orthogonal, we orient the edge as the longer one pointing towards the shorter one.
 
 Irreducible reduced root spaces are fully class by simple roots and Dynkin diagrams:
-![[dynkin_diagrams.png]]
+1. $A_{n} (n\geq 1)$ 
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (0, 0.3) {};
+		\node at (0, -0.3) {};
+		\node[node] (a1) at (0, 0) {};
+		\node[node] (a2) at (1, 0) {};
+		\draw[edge] (a1) -- (a2);
+		\draw[edge] (a2) -- (1.6, 0);
+		\draw[edge] (1.7,0) -- (1.8, 0);
+		\draw[edge] (1.9,0) -- (2, 0);
+		\draw[edge] (2.1,0) -- (2.2, 0);
+		\draw[edge] (2.3,0) -- (2.4, 0);
+		\draw[edge] (2.5,0) -- (2.6, 0);
+		\draw[edge] (2.7,0) -- (2.8, 0);
+		\node[node] (a3) at (3.5, 0) {};
+		\node[node] (a4) at (4.5, 0) {};
+		\draw[edge] (a3) -- (a4);
+		\draw[edge] (2.9, 0) -- (a3);
+	\end{tikzpicture}
+\end{document}
+```
+2. $B_{n}(n\geq 2)$
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (0, 0.3) {};
+		\node at (0, -0.3) {};
+		\node[node] (a1) at (0, 0) {};
+		\node[node] (a2) at (1, 0) {};
+		\draw[edge] (a1) -- (a2);
+		\draw[edge] (a2) -- (1.6, 0);
+		\draw[edge] (1.7,0) -- (1.8, 0);
+		\draw[edge] (1.9,0) -- (2, 0);
+		\draw[edge] (2.1,0) -- (2.2, 0);
+		\draw[edge] (2.3,0) -- (2.4, 0);
+		\draw[edge] (2.5,0) -- (2.6, 0);
+		\draw[edge] (2.7,0) -- (2.8, 0);
+		\draw[edge] (2.9, 0) -- (3.5, 0);
+		\draw[edge] (4.5, 0.05) -- (5.5, 0.05);
+		\draw[edge] (4.5, -0.05) -- (5.5, -0.05);
+		\draw[edge] (3.5, 0) -- (4.5, 0); 
+		\node[node] (a3) at (3.5, 0) {};
+		\node[node] (a4) at (4.5, 0) {};
+		\node[node] (a5) at (5.5, 0) {};
+		\draw[edge] (4.9, 0.15) -- (5.1, -0.01);
+		\draw[edge] (4.9, -0.15) -- (5.1, 0.01);
+	\end{tikzpicture}
+\end{document}
+```
+3. $C_{n}(n\geq 2)$
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (0, 0.3) {};
+		\node at (0, -0.3) {};
+		\node[node] (a1) at (0, 0) {};
+		\node[node] (a2) at (1, 0) {};
+		\draw[edge] (a1) -- (a2);
+		\draw[edge] (a2) -- (1.6, 0);
+		\draw[edge] (1.7,0) -- (1.8, 0);
+		\draw[edge] (1.9,0) -- (2, 0);
+		\draw[edge] (2.1,0) -- (2.2, 0);
+		\draw[edge] (2.3,0) -- (2.4, 0);
+		\draw[edge] (2.5,0) -- (2.6, 0);
+		\draw[edge] (2.7,0) -- (2.8, 0);
+		\draw[edge] (2.9, 0) -- (3.5, 0);
+		\draw[edge] (4.5, 0.05) -- (5.5, 0.05);
+		\draw[edge] (4.5, -0.05) -- (5.5, -0.05);
+		\draw[edge] (3.5, 0) -- (4.5, 0); 
+		\node[node] (a3) at (3.5, 0) {};
+		\node[node] (a4) at (4.5, 0) {};
+		\node[node] (a5) at (5.5, 0) {};
+		\draw[edge] (5.1, 0.15) -- (4.9, -0.01);
+		\draw[edge] (5.1, -0.15) -- (4.9, 0.01);
+	\end{tikzpicture}
+\end{document}
+```
+4. $D_{n}(n\geq 4)$:
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (0, 0.8) {};
+		\node at (0, -0.3) {};
+		\node[node] (a1) at (0, 0) {};
+		\node[node] (a2) at (1, 0) {};
+		\draw[edge] (a1) -- (a2);
+		\draw[edge] (a2) -- (1.6, 0);
+		\draw[edge] (1.7,0) -- (1.8, 0);
+		\draw[edge] (1.9,0) -- (2, 0);
+		\draw[edge] (2.1,0) -- (2.2, 0);
+		\draw[edge] (2.3,0) -- (2.4, 0);
+		\draw[edge] (2.5,0) -- (2.6, 0);
+		\draw[edge] (2.7,0) -- (2.8, 0);
+		\draw[edge] (2.9, 0) -- (3.5, 0);
+		\draw[edge] (4.5, 0) -- (5.2, 0.7);
+		\draw[edge] (4.5, 0) -- (5.2, -0.7);
+		\draw[edge] (3.5, 0) -- (4.5, 0); 
+		\node[node] (a3) at (3.5, 0) {};
+		\node[node] (a4) at (4.5, 0) {};
+		\node[node] (a5) at (5.2, 0.7) {};
+		\node[node]  at (5.2, -0.7) {};
+	\end{tikzpicture}
+\end{document}
+```
+5. $E_{6}$ 
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (2, 1.1) {};
+		\draw[edge] (0, 0) -- (1, 0);
+		\draw[edge] (1, 0) -- (2, 0);
+		\draw[edge] (2, 0) -- (3, 0);
+		\draw[edge] (3, 0) -- (4, 0);
+		\draw[edge] (2, 0) -- (2, 1);
+		\node[node] at (0, 0) {};
+		\node[node] at (1, 0) {};
+		\node[node] at (2, 0) {};
+		\node[node] at (3, 0) {};
+		\node[node] at (4, 0) {};
+		\node[node] at (2, 1) {};
+	\end{tikzpicture}
+\end{document}
+```
+6. $E_{7}$
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (2, 1.1) {};
+		\draw[edge] (0, 0) -- (1, 0);
+		\draw[edge] (1, 0) -- (2, 0);
+		\draw[edge] (2, 0) -- (3, 0);
+		\draw[edge] (3, 0) -- (4, 0);
+		\draw[edge] (4, 0) -- (5, 0);
+		\draw[edge] (2, 0) -- (2, 1);
+		\node[node] at (0, 0) {};
+		\node[node] at (1, 0) {};
+		\node[node] at (2, 0) {};
+		\node[node] at (3, 0) {};
+		\node[node] at (4, 0) {};
+		\node[node] at (2, 1) {};
+		\node[node] at (5, 0) {};
+	\end{tikzpicture}
+\end{document}
+```
+7. $E_{8}$
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (2, 1.1) {};
+		\draw[edge] (0, 0) -- (1, 0);
+		\draw[edge] (1, 0) -- (2, 0);
+		\draw[edge] (2, 0) -- (3, 0);
+		\draw[edge] (3, 0) -- (4, 0);
+		\draw[edge] (4, 0) -- (5, 0);
+		\draw[edge] (5, 0) -- (6, 0);
+		\draw[edge] (2, 0) -- (2, 1);
+		\node[node] at (0, 0) {};
+		\node[node] at (1, 0) {};
+		\node[node] at (2, 0) {};
+		\node[node] at (3, 0) {};
+		\node[node] at (4, 0) {};
+		\node[node] at (2, 1) {};
+		\node[node] at (5, 0) {};
+		\node[node] at (6, 0) {};
+	\end{tikzpicture}
+\end{document}
+```
+8. $F_{4}$
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (0, 0.3) {};
+		\node at (0, -0.3) {};
+		\draw[edge] (0, 0) -- (1, 0);
+		\draw[edge] (1, 0.05) -- (2, 0.05);
+		\draw[edge] (1, -0.05) -- (2, -0.05);
+		\draw[edge] (2, 0) -- (3, 0);
+		\draw[edge] (1.4, 0.15) -- (1.6, -0.01);
+		\draw[edge] (1.4, -0.15) -- (1.6, 0.01);
+		\node[node] at (0, 0) {};
+		\node[node] at (1, 0) {};
+		\node[node] at (2, 0) {};
+		\node[node] at (3, 0) {};
+	\end{tikzpicture}
+\end{document}
+```
+9. $G_{2}$
+```tikz
+\begin{document}
+	\usetikzlibrary{arrows.meta,calc}  
+	\tikzset{  
+		node/.style={  
+			circle,  
+			draw,  
+			fill=white,  
+			inner sep=0pt,  
+			minimum size=8pt,
+			line width=1pt
+		},  
+		edge/.style={  
+			line width=1.2pt  
+		},  
+		arrow/.style={  
+			-{Latex[length=2mm,width=1.6mm]},  
+			line width=0.6pt  
+		}  
+	}
+	\begin{tikzpicture}
+		\node at (0, 0.3) {};
+		\node at (0, -0.3) {};
+		\draw[edge] (1, 0.075) -- (2, 0.075);
+		\draw[edge] (1, 0) -- (2, 0);
+		\draw[edge] (1, -0.075) -- (2, -0.075);
+		\draw[edge] (1.4, 0.15) -- (1.6, -0.01);
+		\draw[edge] (1.4, -0.15) -- (1.6, 0.01);
+		\node[node] at (1, 0) {};
+		\node[node] at (2, 0) {};
+	\end{tikzpicture}
+\end{document}
+```
+

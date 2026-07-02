@@ -35,8 +35,8 @@ The low-dimensional (real) orthogonal groups are familiar [[Topological Space|sp
 1. $\mathrm{O}(1)=\{ \pm1 \}$,
 2. $\mathrm{SO}(1)=\{ 1 \}$,
 3. $\mathrm{SO}(2)=\mathrm{S}^{1}$, the [[Sphere|1-sphere]].
-4. $\mathrm{SO}(3)=\mathbb{RP}^{3}$, the 3-dimensional [[Projective Space|real projective space]], or say $\mathrm{S}^{3}$ identifying antipodal points.
-5. $\mathrm{SO}(4)$ is [[Covering Space|doubly covered]] by $\mathrm{SU}(2)\times \mathrm{SU}(2)=\mathrm{S^{3}\times S^{3}}$.
+4. $\mathrm{SO}(3)=\mathbb{RP}^{3}$, the 3-dimensional [[Projective Space|real projective space]], or say $\mathbb{S}^{3}$ identifying antipodal points.
+5. $\mathrm{SO}(4)$ is [[Covering Space|doubly covered]] by $\mathrm{SU}(2)\times \mathrm{SU}(2)\cong \mathbb{S}^{3}\times \mathbb{S}^{3}$.
 #### Fundamental groups
 The [[Homotopy Group|fundamental groups]] satisfy
 $$\pi_{1}(\mathrm{O}(n))\cong \pi_{1}(\mathrm{SO}(n)).$$

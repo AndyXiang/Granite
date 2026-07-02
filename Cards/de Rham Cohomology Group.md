@@ -10,7 +10,7 @@ The $r$th **de Rham cohomology group** is defined by
 $$H^{r}(M)=Z^{r}(M) /B^{r}(M).$$
 
 ## de Rham Theorem
-As the name suggests, the cohomology group $H^{r}(M)$ is the [[Dual Space|dual space]] of the [[Homology Group (Topology)|homology group]] $H_{r}(M)$. First one has a bilinear [[Map|map]]
+As the name suggests, the cohomology group $H^{r}(M)$ is the [[Dual Space|dual space]] of the [[Simplicial Homology|homology group]] $H_{r}(M)$. First one has a bilinear [[Map|map]]
 $$(,): \begin{matrix}
 C_{r}(M)\times\Omega^{r}(M) &\to & \mathbb{R} \\
 (c,\omega)&\mapsto&\int_{c}\omega

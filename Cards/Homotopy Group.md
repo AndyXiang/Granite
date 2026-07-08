@@ -26,7 +26,7 @@ Typically one can define the zeroth homotopy group $\pi_{0}(X)$, which is actual
 
 ## Examples
 1. $\pi_{1}(\mathbb{S}^{1})\cong \mathbb{Z}$.
-2. $\pi_{1}(T^{2})\cong \mathbb{Z}\oplus \mathbb{Z}$.
+2. $\pi_{1}(\mathbb{T}^{2})\cong \mathbb{Z}\oplus \mathbb{Z}$.
 3. $\pi_{1}(\mathrm{\mathrm{SO}}(n))=\mathbb{Z}_{2}$.
 
 Here is a table of some useful homotopy groups:

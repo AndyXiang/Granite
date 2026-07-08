@@ -8,7 +8,7 @@ Let $\mathbf{A}$ be an [[Abelian Category|abelian category]]. The sequence of [[
 $$\dots\to x\to y\to z\to \dots$$
 or
 $$0\to x_{1}\to x_{2}\to x_{3}\to\dots\to x_{n}\to0$$
-are **complex** iff the composition of any two consecutive arrows in the sequence is [[Zero Morphism|zero]].
+are **complexes** iff the composition of any two consecutive arrows in the sequence is [[Zero Morphism|zero]].
 
 A complex is **exact** if for any part $x\to y\to z$ satisfies $\mathrm{im}(x\to y)=\mathrm{ker}(y\to z)$. Such exact complex is also called a **exact series**.
 
